@@ -1,1 +1,4505 @@
-{"reporting_entity_name":"Security Health Plan of Wisconsin, Inc,","reporting_entity_type":"Group Health Plan","reporting_structure":[{"allowed_amount_file":{"description":"allowed amount file","location":"https://shp-web-public.s3.amazonaws.com/PRD/allowed-amounts/allowed-amounts-empty.zip"},"in_network_files":[{"description":"Northwood in-network shared file","location":"https://shp-web-public.s3.amazonaws.com/PRD/external-in-network-rates/in_network-Northwood.zip"},{"description":"SHP in-network shared file","location":"https://shp-web-public.s3.amazonaws.com/PRD/in-network-rates/in-network_PRG000049.zip"},{"description":"NetworX in-network shared file","location":"https://shp-web-public.s3.amazonaws.com/PRD/in-network-rates/networx_PRG000049.zip"}],"reporting_plans":[{"plan_id":"391018826_210066","plan_id_type":"EIN","plan_market_type":"group","plan_name":"ABBYLAND FOODS INC_ABBYLAND FOODS"},{"plan_id":"391018826_210067","plan_id_type":"EIN","plan_market_type":"group","plan_name":"ABBYLAND FOODS INC_ABBYLAND FOODS"},{"plan_id":"391018826_210068","plan_id_type":"EIN","plan_market_type":"group","plan_name":"ABBYLAND FOODS INC_ABBYLAND FOODS"},{"plan_id":"391018826_210069","plan_id_type":"EIN","plan_market_type":"group","plan_name":"ABBYLAND FOODS INC_ABBYLAND FOODS"},{"plan_id":"391018826_210070","plan_id_type":"EIN","plan_market_type":"group","plan_name":"ABBYLAND FOODS INC_ABBYLAND FOODS"}]}]}
+[
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140001",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $750 - 10%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzB/UMapv72C75M7aSRdwzfat9ahfDTlApVePSyV1oC6TbY",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140004",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $1,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzC/mT9cQ07heBMepg71HwncKANCEHDNBBc.Wm0vNk6ePtA",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140011",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4K/lXcFNG.pFAN6qRA6PwpJ4vusZExpDOLaSIRpMRk6ex0",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140012",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $4,000 - 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzb/pRwH0I09wzRlKz0TpfYEXFERfRIiv1gQJS8RvZ5C8o0",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140033",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $3,500 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4P/Z1i0JaEszukO0PHfactMZNfvT0d9sgWPWShltT2v5KU",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140034",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $5,000- 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzN/Lc_GTyg1ph1uNP2b1u59s3LKoGFhbMJ2wXA48do3U1M",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140036",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $5,500 - 30% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzJ/sXiCYTLMOjAQAZD4mDsEZMUqQx6l7HdUpmLEpABcNUU",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140037",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $7,050 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzP/3WvCv0SR0XgGpfUAJtuPbkUcVCS5bMBb.7LlIsjt5BY",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140040",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $2,500 - 20% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzR/7e2wRO51n9Lv2tcajStrDZrMDtYOp7GeozgVm_k4iEs",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140044",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4N/VLi_..7.B1RwkvqMAfiKIbJlWyK3N4bBAigv5SuQXnw",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0140045",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier HMO $3,200- 30% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzT/F1BhAMsUMHRtzKQwymm2fTi3I1Az6rHCKndswcv2eE0",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150001",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $750 - 10%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzV/P8CA.bvOPWeuyErz79TKpHiPV7bZVIZ3.oPqg2bcaTM",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150002",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $1,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzX/1SgBvyF2Pe7AnysbVxDjN78.EgIJIbGey.hQgEX0oG8",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150011",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzZ/AOdIZLQ6E3zXNWbPLcOCHfr3dCplQi2mV8ilXETiwUQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150012",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $4,000 - 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzb/pRwH0I09wzRlKz0TpfYEXFERfRIiv1gQJS8RvZ5C8o0",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150033",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $3,500 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4P/Z1i0JaEszukO0PHfactMZNfvT0d9sgWPWShltT2v5KU",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150034",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $5,000- 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzd/_S7W8Bw80tQixFApEmoTLqrAeXLVrBMoNPC9yZcQxlQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150036",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $5,500 - 30% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzf/CeklIQlzR_FvnKOKBdhZ.eRbXomHAKgwZBVaCZDG9dU",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150037",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $7,050 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzh/JWAqtr3tjFXTR5JchzGfxcZiEZcfZ7oOcXDkfJiUCQc",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150040",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $2,500 - 20% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzj/M6xO79IzzeAOFO0l25lpfUUkr5AuGY5uqJdE7mkAyes",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150044",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzl/s5bG2_aR_ISCxw__lEsp8eubs04RlQWuSCdQO2i_tVQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0150045",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Premier POS $3,200- 30% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzn/Sv3bC5NnuyVFWtiSygSjSfkeFOlCjyysQ1bGDCV8A4I",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160001",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $750 - 10%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzp/bfGuweOoerTaMVTb7iqyDzAX3yOJbM2_4qycT3Avbag",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160002",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $1,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzr/jJua79w7raPjGbvECAWah3fxw.sDQx80H7psLW_dG2A",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160011",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzv/.ic_mprB1wcfVPUbch.jp2oE82G6uS5nYOwFJY9eRVw",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160012",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $4,000 - 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzx/NkgU84qHRJDGg9OGMSJPNICOZM9e1bfsU4a8.qq.kcE",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160033",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $3,500 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4R/uaQxaUvroU5rC1PR0THGdDVtUo47bg1jY1gS8fmkRPw",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160034",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $5,000- 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzz/9oIDbsOYhfkq2Yelf2k3POUITXeCvFlY2tkYEG9w9mc",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160036",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $5,500 - 30% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak01/rmo9g.QDfnqCytSqxSQK4VmanHSjdfC_Y4RJYomY3iI",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160037",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $7,050 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzz/9oIDbsOYhfkq2Yelf2k3POUITXeCvFlY2tkYEG9w9mc",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160040",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $2,500 - 20% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak05/I3Z4OQIczBkFlg_4nXU4G1kaWCEBDBHNJk4NXxqhwLY",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160044",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4T/m39dej_gNxvrQW3kyTHsPdvhJ6MWn6gUj3z7iqUhWkQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0160045",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Reliance $3,200- 30% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4V/B_XBdn7teo0ZMWXIo0dAv087T_.kn1G6EJJANJRrers",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0180008",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Select Protection",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak19/dn1teF2W3P6WxfZdtoTv0DzWY5veAg11ZNFtQFYWThk",
+        "marketing_url": "https://www.securityhealth.org/myplans",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0180014",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Select $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak19/dn1teF2W3P6WxfZdtoTv0DzWY5veAg11ZNFtQFYWThk",
+        "marketing_url": "https://www.securityhealth.org/myplans",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0180018",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Select $4,100 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4c/UiJZjtN4w51vJ3AuZ6nPHa1Dbil32hkPd_TSLnURt4I",
+        "marketing_url": "https://www.securityhealth.org/myplans",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0180022",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Select $6,200 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak1N/5GeYJCHx16fSWXgPLTUVAvu.mxsGPqkiQAhyICE6nHk",
+        "marketing_url": "https://www.securityhealth.org/myplans",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0180023",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Select $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak1T/lXbqHbTh1a4A0qeIkZdz3RJ9DVPmWWLXAbDWTEpmYys",
+        "marketing_url": "https://www.securityhealth.org/myplans",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0180026",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Select $1,500 - 25%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak1X/4Rk9EtIgu2JsWQFORl_GDE8a4QpVBvclwpzM3n3v.8U",
+        "marketing_url": "https://www.securityhealth.org/myplans",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0180027",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Select $5,900 - 40%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak1d/nvzUtnnJuIL.NzzFgc.ovZLTxJKHh16nLoD.KS.pMEw",
+        "marketing_url": "https://www.securityhealth.org/myplans",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0180028",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Select $7,500",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak1m/tNpTveG5xSny2V4ixWVaHZB83F3RSuB6mg6dk9imdZw",
+        "marketing_url": "https://www.securityhealth.org/myplans",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            },
+            {
+                "network_tier": "NON-PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0270001",
+        "years": [
+            2024
+        ],
+        "marketing_name": "SimplyOne $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak1t/ljiqdBwVv9mh9bC7de0n0HlUKpTDQs8j89dJiN_FonI",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0270004",
+        "years": [
+            2024
+        ],
+        "marketing_name": "SimplyOne $4,100 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak1z/h2a6cnX5MFsMgxhjVhY0hB4dLROO6WYMOS2jPdDAJN8",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0270005",
+        "years": [
+            2024
+        ],
+        "marketing_name": "SimplyOne $6,200 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak2B/W1ZTWcLYK8Ka2uOdHqbCBQ3Jstyueu9qNFwowrGMCgE",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0270007",
+        "years": [
+            2024
+        ],
+        "marketing_name": "SimplyOne $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak2H/mQiAynrmjD9d90njfPNEuRIvXjVLmdWU85AY9ZSLrjU",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0270008",
+        "years": [
+            2024
+        ],
+        "marketing_name": "SimplyOne Protection",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak2N/C2O7GSlT8wZFC0pjWCryJ4dujjgzfKPXp_LkMFjGmcs",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0270011",
+        "years": [
+            2024
+        ],
+        "marketing_name": "SimplyOne $1,500 - 25%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4j/IqlqssijwzqaRCrJqt56cWUUeEjPbuA_rWTS91TlHBE",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0270012",
+        "years": [
+            2024
+        ],
+        "marketing_name": "SimplyOne $5,900 - 40%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak2X/Q5ys4RxJQ.vjpdOp7wtr_BYOZCfydu.jr9L3nCXtM6M",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0270013",
+        "years": [
+            2024
+        ],
+        "marketing_name": "SimplyOne $7,500",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak2j/yWSZRVf5IcMLuaFuxMk_b8I0o1mURSPwtBcMv8MEu1s",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0280002",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Enrich $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak2r/bH4EIxBER2CnI7bjktrruLJY3hpRcXLCsxTEuc3w86A",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0280005",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Enrich $4,100 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak2x/AXold7fqZkVxd04DWKsQ3sIAl8r8ZW5qld.PaXhT1QQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0280006",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Enrich $6,200 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak3B/fEkZCO6ZwNGDilvk2Db8iQ1N7K8k1IERm_niN7HPEfs",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0280009",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Enrich $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak3H/whhr6mr0Epox11Li4a43JmtcWGkvBkOk1qtVvFO9sDI",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0280010",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Enrich Protection",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak37/hJBRGGwWysXHCa6fm98cNevTUg7at045KN4FFxZSA40",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0280011",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Enrich $1,500 - 25%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak3R/OM943Yo5SheTyVIUWASxKxRV1RX8pgFj74NASr1uYcQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0280012",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Enrich $5,900 - 40%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4l/IJYupMlFPOnyue9cLGE2A0Z65VS4HasnQ2zPj337I20",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0280013",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Enrich $7,500",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak3h/rDpkrxza0z95ugLQquoGklh_lk4iGEvFeFstUtXmjes",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290001",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $750 - 10%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0S/52faop.FlL1cpUOAB.oQRv77OKthbJkWXZdnS6JsNd4",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290002",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $1,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0U/VBLmoTAqhjSDJyfMw_vybRW5VQF3jji8R.6rNJ82Jvw",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290003",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $2,500 - 20% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0X/rSgvuy4hQ07.SP7d45ijUKauvvTvjARCPN7Ww8X97NQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290005",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0Y/MTTJJtSd03i_Rp8n9nOEPRUtTUHAY5OBH350dBi4Q44",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290006",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $5,500 - 30% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4X/6yKLYCdGhOqCO2xAQ5Mm8zEEU137MwCVmT_W50bWPDM",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290009",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $3,500 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0b/_AkQ6q19NzrD5yZcwwHWizGRkSO1_tgsI2xjxR_fCwU",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290010",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $4,000 - 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0d/UMjFnq.lhAhpKhSMX38tUW7fecL.Y5h25BDwESLQtQ8",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290011",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $5,000- 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0f/SKxxpJOsHMlppnysIh6iiExV7SRnrdzWE6xBh2Qvfgc",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290012",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $7,050 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzF/5TbgptQhRhOXyFwpgJgrzXC8sXUlbdGgbPcCwaXKKBs",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290013",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0h/i4Ks6MLltb27NuyTKq8jrRgLdiBQ_ZTPOouRsWkgyXw",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0290014",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "Enrich $3,200- 30% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0i/3qtJ4kTCrDRV_oB0UQQhEvFHHdWNNwgRjnMIuOv1oBQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300001",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $750 - 10%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0l/pfr36qdvq69Q3VZh657gYIHOpyPdwauWvtKssa4G_lk",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300002",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $1,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0m/f2hV.Lox8mnRxvX8Xzqm0ZgfiMepxjsnEpy70PyKvPs",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300003",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $2,500 - 20% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ajzs/oCUl1ivr2Gs.cMu0Djz522FD8WSdBvS6MQ_a1CAXncE",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300005",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0o/FG.Qc3FrK3QNYseZ3EeM0enaAMNCCnz2tXj6tmOKf.E",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300006",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $5,500 - 30% Copay",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0r/e7C8VZf4G35R5OKMwTiAI5CGlwaXI4.bvKVGwJNOT0Q",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300009",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $3,500 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0t/N92Z6X4TSOFUwrmTClD0KCXpMmvV8sLSDOKToJgOFJQ",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300010",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $4,000 - 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0v/GUnG3Sko6ojEYmufHrAka8DzviKNLoSkxOpZnzAh2xk",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300011",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $5,000- 20% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0w/DOHrfhzpP_cNLlwoFjk0iMmlENeW7kNvEKL9Ici2M4M",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300012",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $7,050 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak0z/b33IOKFB_Sii11ldjkOhqu2RzbDhhYYwBIPiNXOBS7M",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300013",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak11/js338lWz0PqFFenso3PDaQdzqzBm9Jqx5.GblBn4Nhc",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0300014",
+        "years": [
+            2023,
+            2024
+        ],
+        "marketing_name": "SimplyOne $3,200 - 30% HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak13/9J8JozoMAiO32DX.XAPcydD5PU.Or1HJBqAKP_KWQKs",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": true,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": true,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0310001",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Premier $1,500 - 25%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak3j/w4WBCHE90_rpupM0hYSHyzh0eqmWwE7TAv1CpxLWsh4",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0310002",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Premier $3,500 - 30%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak3p/ZIVIjhCdxgtK5vgmQwO7gbgcXMe23MSS2FF57E8vwuE",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0310003",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Premier $5,900 - 40%",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak3t/FTiLnW35jIb6zM4sugIlsrtQERNY5MASqi2XI7_18ls",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0310004",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Premier $4,100 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak41/nCuXgymUxv4sxsUwt.s38e39meSDjiRuAdfr_GvBngE",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0310005",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Premier $6,200 HDHP",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak47/JFk2fJ_gKjxtVNUpYh3y7Uui2yQUHDayZ6sx2xoaS8M",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0310006",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Premier $7,500",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak53/nVyQKQ41taFgJPJ_T3KBKmsf5c30gMa_A.k6z8BXCVo",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0310007",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Premier $9,100",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak57/EaTAI1npAjTp7ElaLkHLbcj2xD5JIJqbqYDvpgh1D5A",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    },
+    {
+        "plan_id_type": "HIOS-PLAN-ID",
+        "plan_id": "38166WI0310008",
+        "years": [
+            2024
+        ],
+        "marketing_name": "Premier Protection",
+        "summary_url": "https://crm-securityhealth.my.salesforce.com/sfc/p/50000000O7Ho/a/Ht000000ak4D/5yCBMX.bkXpGXDiEi6fk.6E7Q.E4eGVArChlmg9OvUk",
+        "marketing_url": "https://www.securityhealth.org/employeroptions",
+        "formulary_url": "https://www.securityhealth.org/4tierformulary",
+        "plan_contact": "shpcsweb@securityhealth.org",
+        "network": [
+            {
+                "network_tier": "PREFERRED"
+            }
+        ],
+        "formulary": [
+            {
+                "drug_tier": "PREFERRED-GENERIC",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "NON-PREFERRED-GENERIC-AND-NON-PREFERRED-BRAND",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "SPECIALTY-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            },
+            {
+                "drug_tier": "ZERO-COST-SHARE-PREVENTIVE-DRUGS",
+                "mail_order": false,
+                "cost_sharing": []
+            }
+        ],
+        "benefits": [
+            {
+                "telemedicine": false
+            }
+        ],
+        "last_updated_on": "2024-02-19"
+    }
+]
